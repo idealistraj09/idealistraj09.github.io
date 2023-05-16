@@ -303,10 +303,10 @@ nav ul li a:hover::after {
     font-weight: 500;
     margin-bottom: 20px;
     color: #fff;
-    font-size: 18px;
+    font-size: 30px;
 }
 .work p{
-    font-size: 24px;
+    font-size: 16px;
 }
 .layer a {
     margin-top: 25px;
