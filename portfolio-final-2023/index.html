@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Idealistraj-Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/4aeeb52768.js"
+            crossorigin="anonymous"></script>
+            <link rel="icon" href="https://superstarworksheets.com/wp-content/uploads/2022/01/R-uppercase.jpg">
+    </head>
+    <body>
+        <div class="header" id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" alt="" srcset="" id="logo" />
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark aaa" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars aaa bbb" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    
+                    <p>Hey,</p>
+                    <span>i'm <span style="color: #ff004f;">Raj </span><span style="color: #ff004f;"></span><br>Web Developer</span>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="column1">
+                        <img src="images/user.png" alt="" srcset="" />
+                    </div>
+                    <div class="column2">
+                        <h1>About Me</h1>
+                        <p>
+                            With a diploma in computer engineering and a passion for software development, I'm excited to kick-start my career in this dynamic field. Proficient in programming languages such as C++ and Java, I'm eager to take on new challenges and continue honing my skills as I progress in my profession. I am highly motivated, a quick learner, and always looking for new opportunities to innovate and make a positive impact in the world of software development.
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active"
+                                onclick="openTab('Skills')">Skills</p>
+                            <p class="tab-links"
+                                onclick="openTab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="openTab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contant active" id="Skills">
+                            <ul>
+                                <li><span>Web Developer</span><br>Designing web UI</li>
+                                <li><span>Database Designer</span><br>Minimizing Database Queries</li>
+                                <li><span>Content Writer</span><br>Wrtting Articals That Your Blow Your Mind</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contant " id="Experience">
+                            <ul>
+                                <li><span>Currently</span><br>Intern at KINTU DESIGNS PVT LTD,Surat </li>
+                            
+                                <li><span>2022 -
+                                        2023</span><br>Student At Charusat</li>
+                                <li><span>2021 - 2022
+                                        </li><span>Developed Real-Time Laravel Projects</span>
+                                    <li><span>2019 -
+                                            2020</span><br>Worked as freelancer in web development</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contant " id="Education">
+                                <ul>
+                                    <!-- <li><span>2023</span><br>UI/UX Design</li> -->
+                                    <li><span>2021</span><br>B.Tech from Charotar University of Science and Technology (CHARUSAT)</li>
+                                    <li><span>2019</span><br>Diploma from Bhailalbhai And Bhikhabhai Institute Of Technology - (BBIT), Anand</li>
+                                    <li><span>2018</span><br>Completed Primary education from Karmyog vidhaylaya.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="services" id="services">
+                    <div class="container">
+                        <h1 class="sub-tit1e">My Services</h1>
+                        <div class="services-list">
+                            <div><i class="fa-solid fa-code"></i><h2>Web Design</h2>
+                                <p>As a freelance web developer, I offer professional website development services tailored to my clients' needs. With expertise in design, programming, and quality assurance, I create visually appealing, user-friendly websites that effectively showcase businesses and individuals online. Let me bring your digital vision to life.</p>
+                                <a href="https://www.linkedin.com/in/idealistraj/">Learn More</a>
+                            </div>
+                            <div><i class="fa-solid fa-file-code"></i><h2>Database Designer</h2>
+                                <p>As a freelance database designer, I provide expert services in designing and optimizing databases for clients. With a deep understanding of data modeling, database management systems, and efficient query design, I ensure the development of robust and scalable database solutions. Let me help you organize and optimize your data for better efficiency and performance.</p>
+                                <a href="https://www.linkedin.com/in/idealistraj/">Learn More</a>
+                            </div>
+                            <div><i class="fa-solid fa-laptop-code"></i><h2>Content Writer</h2>
+                                <p>As a freelance content writer, I provide versatile writing services to cater to your specific needs. With a keen eye for detail and a knack for storytelling, I deliver engaging blog posts, articles, website copy, and social media content that captivates your audience. From informative and educational pieces to persuasive and conversion-driven content, I ensure that your message is effectively communicated. Let me help you enhance your online presence and connect with your target audience through compelling and well-crafted written content.</p>
+                                <a href="https://www.linkedin.com/in/idealistraj/">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio" id="portfolio">
+                    <div class="container">
+                        <h1>My Work</h1>
+                        <div class="my-work">
+                            <div class="work">
+                                <img src="images/work-1.png" alt="" srcset="">
+                                <div class="layer"><h3>Railway-Reservation System</h3><p>
+                                    This railway reservation system provide functionality like booking train ticket, cancel the ticket, get information about trains with online payment method. It will reduce the cost of agent booking charge. With use of some basic passenger and reservation detail this system will reserve the seat for passenger.
+                                    
+                                    </p>
+                                    <a href="https://github.com/idealistraj09/Railway-reservation-system-"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a></div>
+                            </div>
+                            <div class="work">
+                                <img src="images/work-2.png" alt="" srcset="">
+                                <div class="layer"><h3>Personal Portfolio</h3><p>
+                                    My personal portfolio is a carefully curated showcase of my freelance work, representing my skills and creativity. It features a diverse range of projects, including website designs, writing samples, and other relevant works. With a visually appealing and user-friendly layout.
+                                    </p><a href="https://github.com/idealistraj09/PORTFOLIO"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a></div>
+
+                            </div>
+                            <div class="work">
+                                <img src="images/work-3.png" alt="" srcset="">
+                                <div class="layer"><h3>Online Cricket Scoring app</h3><p>
+                                        Under development....
+                                    </p><a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a></div>
+
+                            </div>
+                        </div>
+                        <a href="" class="btn">See More</a>
+                    </div>
+                </div>
+                <div class="contact" id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h1>Contact Me</h1>
+                                <p><i class="fa-solid fa-paper-plane"></i>idealistraj09@gmail.com</p>
+                                <p><i class="fa-solid fa-phone"></i> +91 9328537990</p>
+                                <div class="icon1">
+                                    <a href="https://www.instagram.com/idealistraj/"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/idealistraj/"><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href="https://github.com/idealistraj09"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                            </div>
+                            <div class="contact-right">
+                                <form action="" name="submit-to-google-sheet">
+                                    <input type="text" name="Name" placeholder="Your name" required>
+                                    <input type="email" name="Email" placeholder="exaple@gmail.com" required>
+                                    <textarea name="msg" rows="6" placeholder="your msg..." required></textarea>
+                                    <input type="submit" class="btn btn2" value="Submit">
+                                </form>
+                                <span id="msg1"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright"><p>Copyright © Raj. Made with <i class="fa-solid fa-heart"></i> by Idealistraj</p></div>
+                <script src="script.js"></script>
+            </body>
+        </html>
